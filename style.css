@@ -3,23 +3,27 @@ body {
 }
 
 .header_background {
-    background-color: rgb(62, 118, 62);
+    background-image: url(images/pawprints.jpg);
+    background-size: contain;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .header {
     background-image: url(images/cat-banner.jpg);
     background-size: cover;
     display: flex;
     height: 350px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: center;
     align-items: flex-start;
+    border: 5px solid #8c5860;
 }
 
 .header h1 {
-    background-color: white;
+    background-color: rgb(239, 213, 192);
     margin: 20px;
     padding: 20px;
-    border: 3px solid brown;
+    border: 3.5px solid #8c5860;
     border-radius: 26px;
 }
