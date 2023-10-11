@@ -1,1 +1,25 @@
+body {
+    margin: 0;
+}
 
+.header_background {
+    background-color: rgb(62, 118, 62);
+}
+.header {
+    background-image: url(images/cat-banner.jpg);
+    background-size: cover;
+    display: flex;
+    height: 350px;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header h1 {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid brown;
+    border-radius: 26px;
+}
