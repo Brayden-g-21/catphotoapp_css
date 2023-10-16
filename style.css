@@ -34,20 +34,30 @@ hr {
 }
 
 .cat_photos {
-    margin: 0;
-    background-color: #8c5860;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-image: url(/images/desert-background.jpg);
 }
 
 .cat_photos h2 {
     background-color: #efd5c0;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    margin-top: 0;
+
+}
+
+.cat_photos-main {
+    display: flex;
+    flex-direction: column;
 }
 
 .cat_photos p {
 align-self: flex-start;
 padding: 1%;
+background-color: #efd5c0;
+border: 2px solid #60452f;
+border-radius: 20px;
+margin-left: 10px;
 }
 
 .cat_photos a {
@@ -57,41 +67,34 @@ padding: 1%;
 }
 
 .cat_interests {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/forest-background.jpg);
 }
 
 .cat_interests h2 {
     font-family: cursive;
-    font-size: xx-large;
+    font-size: 28px;
     text-align: center;
     background-color: #efd5c0;
     width: 100%;
     margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.cards {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1rem;
-    flex-wrap: wrap;
-    padding: 1rem; 
+.cat_interests hr {
+    align-self: stretch;
 }
 
 .interests_card {
-    width: 250px;
-    height: 350px;
+    width: 580px;
+    height: 370px;
     perspective: 800px;
     border-style: none;
+    padding: 15px;
+    margin-bottom: 50px;
 }
 
 .interests_card-inner {
@@ -109,14 +112,15 @@ padding: 1%;
 .interests_card-front,
 .interests_card-back {
     position: absolute;
-    width: 100%;
     height: 100%;
+    width: 100%;
     backface-visibility: hidden;
     text-align: center;
+    padding: 10px;
 }
 
 .interests_card-front {
-    background-color: #e9e9e9;
+    background-color: #ffe6c2;
     color: #333;
     display: flex;
     align-items: center;
@@ -124,10 +128,31 @@ padding: 1%;
 }
 
 .interests_card-back {
-    background-color: #333;
+    background-color: #205d33;
     color: #fff;
     transform: rotateY(180deg);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card h3 {
+    font-size: x-large;
+}
+.interests_card img {
+    width: 300px;
+    height: 244;
+}
+
+.card hr {
+    margin-left: 10px;
+    border: 2px dotted rgb(0, 0, 0);
+}
+
+.card p {
+    font-size: x-small;
+}
+
+.card figcaption {
+    font-size: larger;
 }
