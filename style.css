@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+h1, h2, h3, p, li, figcaption {
+    font-family: cursive;
+}
+
 .header_background {
     background-image: url(images/pawprints.jpg);
     background-size: contain;
@@ -39,7 +43,6 @@ hr {
 
 .cat_photos h2 {
     background-color: #efd5c0;
-    text-align: center;
     font-size: 28px;
     padding: 5px;
     margin-top: 0;
@@ -76,7 +79,6 @@ margin-left: 10px;
 .cat_interests h2 {
     font-family: cursive;
     font-size: 28px;
-    text-align: center;
     background-color: #efd5c0;
     width: 100%;
     margin: 0;
@@ -155,4 +157,40 @@ margin-left: 10px;
 
 .card figcaption {
     font-size: larger;
+}
+
+.cat_form-h2 {
+    background-color: #efd5c0;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(155, 241, 243), rgb(249, 224, 177), rgb(23, 104, 39));
+    padding: 50px;
+}
+
+.url_submission {
+    display: flex;
+    margin: 10px 0px;
+    padding: 0px;
+    border: 5px solid #333;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: rgb(52, 36, 21);
+    padding-top: 30px;
+    padding-left: 10px;
+    color: white;
 }
