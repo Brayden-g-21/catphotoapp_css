@@ -38,7 +38,7 @@ hr {
 }
 
 .cat_photos {
-    background-image: url(/images/desert-background.jpg);
+    background-image: url(images/desert-background.jpg);
 }
 
 .cat_photos h2 {
@@ -73,7 +73,7 @@ margin-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/images/forest-background.jpg);
+    background-image: url(images/forest-background.jpg);
 }
 
 .cat_interests h2 {
